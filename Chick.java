@@ -13,9 +13,9 @@ class Chick implements Animal
     mySound2 = "unknown";
   }
   public String getSound() {
-   if ((int)Math.random()*2 == 0){
+   if ((int)(Math.random()*2) == 0){
      return mySound2; 
-    }
+   }
     else{
       return mySound;
     }
